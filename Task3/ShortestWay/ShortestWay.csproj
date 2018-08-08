@@ -43,8 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cell.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Location.cs" />
+    <Compile Include="PriorityQueue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="World.cs" />

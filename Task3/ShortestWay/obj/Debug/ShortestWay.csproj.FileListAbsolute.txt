@@ -5,3 +5,10 @@ C:\Users\Ivan\source\repos\ShortestWay\ShortestWay\obj\Debug\ShortestWay.csprojA
 C:\Users\Ivan\source\repos\ShortestWay\ShortestWay\obj\Debug\ShortestWay.csproj.CoreCompileInputs.cache
 C:\Users\Ivan\source\repos\ShortestWay\ShortestWay\obj\Debug\ShortestWay.exe
 C:\Users\Ivan\source\repos\ShortestWay\ShortestWay\obj\Debug\ShortestWay.pdb
+C:\Users\Ivan\Documents\GitHub\TestingExercise\Task3\ShortestWay\bin\Debug\ShortestWay.exe.config
+C:\Users\Ivan\Documents\GitHub\TestingExercise\Task3\ShortestWay\bin\Debug\ShortestWay.exe
+C:\Users\Ivan\Documents\GitHub\TestingExercise\Task3\ShortestWay\bin\Debug\ShortestWay.pdb
+C:\Users\Ivan\Documents\GitHub\TestingExercise\Task3\ShortestWay\obj\Debug\ShortestWay.csprojAssemblyReference.cache
+C:\Users\Ivan\Documents\GitHub\TestingExercise\Task3\ShortestWay\obj\Debug\ShortestWay.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\GitHub\TestingExercise\Task3\ShortestWay\obj\Debug\ShortestWay.exe
+C:\Users\Ivan\Documents\GitHub\TestingExercise\Task3\ShortestWay\obj\Debug\ShortestWay.pdb
