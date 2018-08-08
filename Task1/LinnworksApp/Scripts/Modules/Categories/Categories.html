@@ -1,0 +1,18 @@
+﻿<div ng-controller="CategoriesController">
+    <h2>Categories</h2>
+    <div class="text-right">
+        <span><button class="btn" ng-click="createFormShow = true">Create</button></span>
+        <span><button class="btn" ng-disabled="countRows === 0" ng-click="deleteCategory()">Delete</button></span>
+    </div>
+    <div ng-show="createFormShow">
+        <form name="createForm" novalidate>
+            <label>Name: </label>
+            <input name="category" type="text" style="width:200px" ng-model="category" placeholder="Name" ng-minlength="2" ng-maxlength="100" required />
+            <button type="button" ng-disabled="createForm.category.$invalid" ng-click="createCategory(category)">Save</button>
+            <button type="button" ng-click="category=null;createFormShow=false;">Cancel</button>
+        </form>
+        &nbsp;
+    </div>
+    <div>&nbsp;</div>
+    <div ui-grid="gridOptions" ui-grid-selection ui-grid-edit ui-grid-row-edit class="grid"></div>
+</div>

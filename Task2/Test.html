@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script src="Parse.js"></script>
+    <script>        
+        var template = "<div class=\"content\"> [{TITLE}] <ul class=\"attributes\"> Attributes: <li>Size: [{SIZE}]</li> <li>Сolor: [{COLOR}]</li> </ul> <img src=\"[{IMAGE1}]\" /> <img src=\"[{IMAGE2}]\" /> </div>";
+        var text = "<div class=\"content\"> Adidas shoes new for women <ul class=\"attributes\"> Attributes: <li>Size: 36</li> <li>Сolor: Red</li> </ul> <img src=\"http://www.site.com/adidas-busenitz-vulc-skate-shoes-black-running-red.jpg\" /> <img src=\"http://www.site.com/adidas-busenitz-vulc-skate-shoes-black-running-red2.jpg\" /> </div>";
+        
+        var result = parse(template,text);
+        console.log(result);
+    </script>
+</body>
+</html>

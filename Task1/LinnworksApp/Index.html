@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="MainModule">
+<head>
+    <title>Linnworks App</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="Scripts/lib/css/sidebar.css" rel="stylesheet">
+    <link href="Scripts/lib/ui-grid/ui-grid.min.css" rel="styleSheet">
+    <link href="Scripts/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper" class="toggled">
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#!home">
+                        <p style="color:#f6eeee">HOME</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!inventory/categories"><p style="color:#f6eeee">Categories</p></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid" style="padding-left:150px;padding-right:0px;">
+        <div class="row" style="padding: 100px 10px 10px 10px">
+            <div class="col-12">
+                <form name="tokenForm" ng-controller="MainController" ng-show="token === null" novalidate>
+                    <label>Insert token: </label>
+                    <input name="token" style="width:350px" ng-model="input" placeholder="{{guid}}" ng-pattern="pattern" required />
+                    <button type="button" ng-disabled="tokenForm.token.$invalid" ng-click="initToken(input)">Save Token</button>
+                </form>
+                <div ng-view></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
+    <script src="Scripts/Modules/MainModule.js"></script>
+    <script src="Scripts/Modules/MainService.js"></script>
+    <script src="Scripts/Modules/MainController.js"></script>
+    <script src="Scripts/Modules/Categories/CategoriesModule.js"></script>
+    <script src="Scripts/Modules/Categories/CategoriesController.js"></script>
+    <script src="Scripts/Modules/Categories/CategoriesService.js"></script>
+    <script src="Scripts/lib/ui-grid/ui-grid.min.js"></script>
+    <script src="Scripts/lib/jquery/jquery.slim.min.js"></script>
+    <script src="Scripts/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
